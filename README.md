@@ -19,16 +19,21 @@ We have developed an advanced **Dual Cross-Verifying Geo-Marking System** for de
 ### **5. Visualization**
    - The website dynamically retrieves the geo-tagged anomaly data and displays it on an integrated geomap, providing a real-time view of the track's condition.
 
-## **System Highlights:**
+## 🚄 **System Highlights:**
 
-- **Dual Cross-Verification**: Combines microphone and ultrasonic data for enhanced accuracy.
-- **Data Transmission**: The collected data is transmitted to a GPS module, Raspberry Pi, and a storage system for redundancy before being uploaded to cloud servers.
-- **Automatic Defect Detection**: Cloud-hosted AI models automatically detect defects and mark them using precise GPS coordinates (latitude and longitude).
-- **Secure Access**: The website and application used by maintenance crews feature encrypted data for enhanced security.
+- **🛠️ Dual Cross-Verification**: Combines microphone and ultrasonic data for enhanced accuracy.
+- **📡 Data Transmission**: The collected data is transmitted to a GPS module, Raspberry Pi, and a storage system for redundancy before being uploaded to cloud servers.
+- **🤖 Automatic Defect Detection**: Cloud-hosted AI models automatically detect defects and mark them using precise GPS coordinates (latitude and longitude).
+- **🔒 Secure Access**: The website and application used by maintenance crews feature encrypted data for enhanced security.
+
+---
 
 This comprehensive system ensures that railway track defects are detected promptly and accurately, enhancing safety and efficiency in track maintenance operations.
 
+---
+
 This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
+
 
 ## 👥 Team Details
 
