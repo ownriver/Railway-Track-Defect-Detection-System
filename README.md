@@ -81,6 +81,7 @@ cd SIH_INTERNAL_ROUND_2_TopCoder
 - \`\`\`bash\npm run start\n\`\`\`
 - \`\`\`bash\npm run dev\n\`\`\`
 
+EOL
 
 
 
