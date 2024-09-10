@@ -71,9 +71,12 @@ cd SIH_INTERNAL_ROUND_2_TopCoder
 
 2. **Install Dependencies**
 
-- **Python**: \`\`\`bash\npip install -r requirements.txt\n\`\`\`
-- **Node.js**: \`\`\`bash\nnpm install\n\`\`\`
-- **Java**: For Maven: \`\`\`bash\nmvn install\n\`\`\` For Gradle: \`\`\`bash\ngradle build\n\`\`\`
+ \`\`\`bash\
+  npip install -r requirements.txt\n
+  \`\`\`
+ \`\`\`bash\
+  nnpm install\n
+ \`\`\`
 
 3. **Run the Project**
 
