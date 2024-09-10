@@ -24,14 +24,12 @@ This README provides an overview of the project, including team details, relevan
 - **SIH presentation**:
 - **Video demonstration**:
 - **3D CAD models** (for both constructions):
-- **Source Code**:
+- **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
 - **Additional Resources**:
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
-
+ 
   **How to run locally?**
 
 Run in the terminal (npm run start) to host backend locally at port 5000.
