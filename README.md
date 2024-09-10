@@ -62,24 +62,24 @@ cat <<EOL >> README.md
 
 # Running the Project Locally
 
-## 1. Clone the Repository
+1. **Clone the Repository**
 
 \`\`\`bash
 git clone https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder.git
 cd SIH_INTERNAL_ROUND_2_TopCoder
 \`\`\`
 
-## 2. Install Dependencies
+2. **Install Dependencies**
 
 - **Python**: \`\`\`bash\npip install -r requirements.txt\n\`\`\`
 - **Node.js**: \`\`\`bash\nnpm install\n\`\`\`
 - **Java**: For Maven: \`\`\`bash\nmvn install\n\`\`\` For Gradle: \`\`\`bash\ngradle build\n\`\`\`
 
-## 3. Run the Project
+3. **Run the Project**
 
-- \`\`\`bash\npython main.py\n\`\`\`
-- \`\`\`bash\npm run start\n\`\`\`
-- \`\`\`bash\npm run dev\n\`\`\`
+- **Python**: \`\`\`bash\npython main.py\n\`\`\`
+- **Node.js (Start)**: \`\`\`bash\nnpm run start\n\`\`\`
+- **Node.js (Development)**: \`\`\`bash\nnpm run dev\n\`\`\`
 
 EOL
 
