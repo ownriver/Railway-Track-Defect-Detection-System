@@ -16,7 +16,7 @@ We have created a fully functioning android application which is thereby integra
 - Rishav Shah - 2023UCS1543 - [@rishavafk](https://github.com/rishavafk)
 - Khushi Monga - 2023UEC2584 - [@Khushi-monga](https://github.com/Khushi-monga)
 - Ujjawal Kumar - 2023UCS1502 - [@UJJAWALX42](https://github.com/UJJAWALX42)
-- Shukla Shukla - 2023UCD2156 - [@shuklaafk](https://github.com/shuklaafk)
+- Ajisth Shukla - 2023UCD2156 - [@shuklaafk](https://github.com/shuklaafk)
 - Mohammad Bilal - 2023UCS1638 - [@mohammadBilal03](https://github.com/mohammadBilal03)
 
 ## Project Links
