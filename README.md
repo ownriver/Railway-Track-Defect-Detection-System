@@ -23,3 +23,6 @@ This README provides an overview of the project, including team details, relevan
 
 - How to run locally?
 - 
+- Run in the terminal npm run start to host backend locally at port 5000
+
+Run in the terminal npm run dev to host front end at local host 5173
