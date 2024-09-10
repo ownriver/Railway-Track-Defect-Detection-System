@@ -72,15 +72,14 @@ cat <<EOL >> README.md
 
 2. **Install Dependencies**
 
-   '''bash
+    ```bash
    npm install
 
 3. **RUN THE PROJECT**
 
-   '''bash
+    ```bash
    npm run start
    npm run dev
-   
 
 
 
