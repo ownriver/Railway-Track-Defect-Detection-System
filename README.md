@@ -48,7 +48,8 @@ Welcome to the **Dual Cross-Verifying Geo-Marking System** for railway track def
 
 - **SIH Presentation**: [Link TBD]
 - **Video Demonstration**: [SIH_1584_demo_video](https://www.youtube.com/watch?v=EWoAHoAi5wI)
-- **3D CAD Models**: [Acoustic Mic & AUX Mic Geo-Tracking Defect Detection System](https://www.tinkercad.com/things/2UOgYSBc0pL-acoustic-mic-aux-mic-geo-tracking-defect-detection-system?sharecode=t7Cl9CB0puufQ7OUfeHj0PJhTP1noBdmY2DmjV8xogA)[Ultrasonic Transmitter-Receiver Defect Detection Verifying System](https://www.tinkercad.com/things/jlbW1u8U0sm-ultrasonic-transmitter-receiver-defect-detection-verifying-syst?sharecode=IHqeQRYft3Sh_H7vds6x2g0W31OGxgIXeP10PK3jnBs)
+- **3D CAD Models**: [Acoustic Mic System](https://www.tinkercad.com/things/2UOgYSBc0pL-acoustic-mic-aux-mic-geo-tracking-defect-detection-system?sharecode=t7Cl9CB0puufQ7OUfeHj0PJhTP1noBdmY2DmjV8xogA)  
+     [Ultrasonic Transmitter-Receiver System](https://www.tinkercad.com/things/jlbW1u8U0sm-ultrasonic-transmitter-receiver-defect-detection-verifying-syst?sharecode=IHqeQRYft3Sh_H7vds6x2g0W31OGxgIXeP10PK3jnBs)
 - **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
 - **Additional Resources**: [Link TBD]
 
