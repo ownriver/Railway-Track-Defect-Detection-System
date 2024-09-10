@@ -46,7 +46,7 @@ Welcome to the **Dual Cross-Verifying Geo-Marking System** for railway track def
 
 ## Project Links
 
-- **SIH Presentation**: [Link TBD]
+- **SIH Presentation**: [View the PPT](https://github.com/ownriver/SIH_INTERNAL_ROUND_2_Topcoders/blob/main/SIH_PPT_Topcoders.pdf)
 - **Video Demonstration**: [SIH_1584_demo_video](https://www.youtube.com/watch?v=EWoAHoAi5wI)
 - **3D CAD Models**: [Acoustic Mic System](https://www.tinkercad.com/things/2UOgYSBc0pL-acoustic-mic-aux-mic-geo-tracking-defect-detection-system?sharecode=t7Cl9CB0puufQ7OUfeHj0PJhTP1noBdmY2DmjV8xogA)             
                      [Ultrasonic Transmitter-Receiver System](https://www.tinkercad.com/things/jlbW1u8U0sm-ultrasonic-transmitter-receiver-defect-detection-verifying-syst?sharecode=IHqeQRYft3Sh_H7vds6x2g0W31OGxgIXeP10PK3jnBs)
