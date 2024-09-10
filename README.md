@@ -2,8 +2,6 @@
 
 This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
 
-We have created a fully functioning android application which is thereby integrated with the IoT web services which can be used to access the various functionalities on the Smart Alarm Clock remotely on the go.
-
 ## Team Details
 
 **Team Name:** TEAM_Topcoders
