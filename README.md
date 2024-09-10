@@ -5,7 +5,7 @@ Welcome to the **Dual Cross-Verifying Geo-Marking System** for railway track def
 ## Key Components
 
 ### 1. Detection & Data Collection
-- **Audio Frequencies**: Captures and clips audio into 5-second files.
+- **Audio Signals**: Captures and clips audio into 5-second files.
 - **GPS Coordinates**: Associates GPS data with audio files.
 - **Data Transmission**: Sends data to the cloud using an IoT device.
 
@@ -25,7 +25,7 @@ Welcome to the **Dual Cross-Verifying Geo-Marking System** for railway track def
 - **Dynamic Map**: Displays geo-tagged anomalies in real-time on an integrated geomap.
 
 ## System Highlights
-- **Dual Cross-Verification**: Enhances accuracy with combined microphone and ultrasonic data.
+- **Cross-Verification**: Enhances accuracy with combined microphone and ultrasonic data.
 - **Data Transmission**: Ensures redundancy with GPS modules, Raspberry Pi, and cloud servers.
 - **Automatic Detection**: Uses AI models to detect and geo-tag defects.
 - **Secure Access**: Provides encrypted data for secure access by maintenance crews.
