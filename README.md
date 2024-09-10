@@ -1,4 +1,4 @@
-# Develop an Al based acoustic wave monitoring of rail defects like cracks, fracture and prediction for rail wear, quality along with other parameter.
+# Develop an Al based acoustic wave monitoring of rail defects like cracks, fracture and prediction for rail wear, quality along with other parameter. (SIH 1584)
 
 This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
 
