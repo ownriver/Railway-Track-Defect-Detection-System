@@ -1,5 +1,7 @@
 # Develop an Al based acoustic wave monitoring of rail defects like cracks, fracture and prediction for rail wear, quality along with other parameter. (SIH 1584)
 
+We have developed a Dual Cross-Verifying Geo-Marking Railway Track Defect Detection System using both a microphone-based setup and an ultrasonic transmitter-receiver system. The data is transmitted from these devices to a GPS module, Raspberry Pi, and a storage system (for redundancy), after which it is uploaded to cloud servers. The cloud servers host an integrated AI model for automatic defect detection, which marks defects using GPS coordinates (latitude and longitude). The website and application used by the maintenance crews have encrypted data for enhanced security.
+
 This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
 
 ## Team Details
