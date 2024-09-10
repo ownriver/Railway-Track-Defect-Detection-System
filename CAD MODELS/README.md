@@ -17,10 +17,3 @@ An innovative system designed for defect detection utilizing both acoustic and a
 This system uses ultrasonic transmitters and receivers to verify rail track defects with high accuracy.
 
 ---
-
-Feel free to explore and contribute to the development of these detection systems!
-
----
-
-### 📄 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
