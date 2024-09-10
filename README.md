@@ -20,3 +20,6 @@ This README provides an overview of the project, including team details, relevan
 ## Project Links
 
 - **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
+
+- How to run locally?
+- 
