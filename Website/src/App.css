@@ -1,0 +1,27 @@
+/* src/App.css */
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.data-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.data-item {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-item.defect {
+  background: #ffcccc;
+}
+
+.data-item.normal {
+  background: #ccffcc;
+}
+
