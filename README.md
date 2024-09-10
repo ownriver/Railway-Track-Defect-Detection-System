@@ -80,8 +80,3 @@ cat <<EOL >> README.md
     ```bash
    npm run start
    npm run dev
-
-
-
-
-
