@@ -27,6 +27,11 @@ This README provides an overview of the project, including team details, relevan
 - Source Code:
 - Additional Resources:
 
+SIH Presentation: 
+Video Demonstartion:
+3D CAD models (for both constructions):
+Source Code:
+Additional Resources:
 
 
 
