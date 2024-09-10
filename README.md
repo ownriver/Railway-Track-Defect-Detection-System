@@ -62,29 +62,27 @@ cat <<EOL >> README.md
 
 # Running the Project Locally
 
+# Running the Project Locally
+
 1. **Clone the Repository**
 
-\`\`\`bash
-git clone https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder.git
-cd SIH_INTERNAL_ROUND_2_TopCoder
-\`\`\`
+   ```bash
+   git clone https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder.git
+   cd SIH_INTERNAL_ROUND_2_TopCoder
 
 2. **Install Dependencies**
 
- \`\`\`bash\
-  npip install -r requirements.txt\n
-  \`\`\`
- \`\`\`bash\
-  nnpm install\n
- \`\`\`
+   '''bash
+   npm install
 
-3. **Run the Project**
+3. **RUN THE PROJECT**
 
-- **Python**: \`\`\`bash\npython main.py\n\`\`\`
-- **Node.js (Start)**: \`\`\`bash\nnpm run start\n\`\`\`
-- **Node.js (Development)**: \`\`\`bash\nnpm run dev\n\`\`\`
+   '''bash
+   npm run start
+   npm run dev
+   
 
-EOL
+
 
 
 
