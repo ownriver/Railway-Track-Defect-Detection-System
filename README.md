@@ -72,7 +72,7 @@ Welcome to the **Dual Cross-Verifying Geo-Marking System** for railway track def
     ```bash
    npm run dev
     npm run start
-    
 
  **Backend**: Run `npm run start` to host the backend locally at port 5000.
+ 
  **Frontend**: Run `npm run dev` to host the frontend locally at port 5173.
