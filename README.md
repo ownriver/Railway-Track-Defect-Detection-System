@@ -32,8 +32,7 @@ This README provides an overview of the project, including team details, relevan
 
 - **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
 
-- How to run locally?
+  **How to run locally?**
 
-- Run in the terminal (npm run start) to host backend locally at port 5000.
-
-- Run in the terminal (npm run dev) to host frontend locally at port 5173.
+Run in the terminal (npm run start) to host backend locally at port 5000.
+Run in the terminal (npm run dev) to host frontend locally at port 5173.
