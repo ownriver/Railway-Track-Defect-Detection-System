@@ -46,8 +46,6 @@ This README provides an overview of the project, including team details, relevan
 
 ---
 
-> *We are a team of passionate coders committed to innovation and excellence.*
-
 
 ## Project Links
 
