@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rail Anomalies Detection</title>
+  
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+  
+  <!-- Leaflet.js CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <!-- Custom CSS for modern UI -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #3f87a6, #ebf8e1);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin: 30px 0;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #map {
+      height: 500px;
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+
+    #anomaly-list {
+      max-width: 1000px;
+      width: 100%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      overflow-y: auto;
+    }
+
+    #anomaly-list h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .anomaly-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #f4f7fc;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .anomaly-item:hover {
+      background-color: #e8f1ff;
+    }
+
+    .anomaly-info {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .loading {
+      color: #666;
+      font-size: 1.5rem;
+      margin-top: 20px;
+      animation: fadeIn 1.5s infinite;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0.2; }
+      50% { opacity: 1; }
+      100% { opacity: 0.2; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Rail Anomalies Detection System</h1>
+  
+  <!-- Map container -->
+  <div id="map"></div>
+  
+  <!-- Anomaly list container -->
+  <div id="anomaly-list">
+    <h2>Anomalies List</h2>
+    <div id="anomaly-items"></div>
+  </div>
+
+  <!-- Loading message -->
+  <div class="loading" id="loading">Loading anomaly data...</div>
+
+  <!-- Leaflet.js and custom JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    // Leaflet map setup
+    var map = L.map('map').setView([28.654629, 77.32056], 14); // Centered near anomalies
+
+    // Add OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    // Custom icon for anomalies
+    var anomalyIcon = L.icon({
+      iconUrl: 'https://cdn4.iconfinder.com/data/icons/relief-travel-glyph/512/Artboard_11-1024.png', // Replace with actual anomaly icon URL
+      iconSize: [32, 32],
+    });
+
+    // Fetch anomaly data from backend
+    function fetchAnomalyData() {
+      fetch('http://localhost:5000/api/train-data')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('loading').style.display = 'none';
+          displayAnomalyData(data);
+        })
+        .catch(err => {
+          console.error('Error fetching data:', err);
+          document.getElementById('loading').style.display = 'none';
+          alert('Failed to load anomaly data');
+        });
+    }
+
+    // Display anomaly data on the map and in the list
+    function displayAnomalyData(anomalyData) {
+      const anomalyList = document.getElementById('anomaly-items');
+      anomalyData.forEach(anomaly => {
+        var lat = parseFloat(anomaly.latitude.N);
+        var lon = parseFloat(anomaly.longitude.N);
+        var anomalyType = anomaly.anomaly.S;
+
+        // Add anomaly marker on the map
+        L.marker([lat, lon], { icon: anomalyIcon })
+          .addTo(map)
+          .bindPopup(`<strong>Anomaly:</strong> ${anomalyType}<br><strong>Lat:</strong> ${lat}<br><strong>Lon:</strong> ${lon}`);
+
+        // Add anomaly data to the list
+        const anomalyItem = document.createElement('div');
+        anomalyItem.classList.add('anomaly-item');
+        anomalyItem.innerHTML = `
+          <div class="anomaly-info"><strong>Anomaly:</strong> ${anomalyType}</div>
+          <div class="anomaly-info"><strong>Latitude:</strong> ${lat}</div>
+          <div class="anomaly-info"><strong>Longitude:</strong> ${lon}</div>
+        `;
+        anomalyList.appendChild(anomalyItem);
+      });
+    }
+
+    // Fetch and display data on page load
+    fetchAnomalyData();
+  </script>
+
+</body>
+</html>
