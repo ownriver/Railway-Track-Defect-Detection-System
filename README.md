@@ -21,14 +21,14 @@ This README provides an overview of the project, including team details, relevan
 
 ## Project Links
 
-- SIH presentation:
-- Video demonstration:
-- 3D CAD models (for both constructions):
-- Source Code:
-- Additional Resources:
+- **SIH presentation**:
+- **Video demonstration**:
+- **3D CAD models** (for both constructions):
+- **Source Code**:
+- **Additional Resources**:
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
 
