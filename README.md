@@ -1,6 +1,32 @@
-# Develop an Al based acoustic wave monitoring of rail defects like cracks, fracture and prediction for rail wear, quality along with other parameter. (SIH 1584)
+# **Railway Track Defect Detection System** (SIH 1584)
 
-We have developed a Dual Cross-Verifying Geo-Marking Railway Track Defect Detection System using both a microphone-based setup and an ultrasonic transmitter-receiver system. The data is transmitted from these devices to a GPS module, Raspberry Pi, and a storage system (for redundancy), after which it is uploaded to cloud servers. The cloud servers host an integrated AI model for automatic defect detection, which marks defects using GPS coordinates (latitude and longitude). The website and application used by the maintenance crews have encrypted data for enhanced security.
+We have developed an advanced **Dual Cross-Verifying Geo-Marking System** for detecting railway track defects. This system leverages both a microphone-based setup and an ultrasonic transmitter-receiver system for robust and accurate monitoring. 
+
+## **Key Components:**
+
+### **1. Detection & Data Collection**
+   - The system detects audio frequencies and GPS coordinates, clips them into 5-second audio files, and sends the data to the cloud using an IoT device.
+
+### **2. Data Storage**
+   - Audio files are converted to Base64 format and securely stored in a DynamoDB database.
+
+### **3. AI Processing**
+   - Data is retrieved from DynamoDB and processed through an AI algorithm hosted on AWS Elastic Beanstalk. The algorithm extracts MFCC features and utilizes a Logistic Regression and Random Forest pipeline for analysis.
+
+### **4. Anomaly Detection**
+   - The system identifies anomalies such as wear, cracks, and burnt wheels. Detected anomalies are geo-tagged with GPS coordinates and stored in a secondary database for further action.
+
+### **5. Visualization**
+   - The website dynamically retrieves the geo-tagged anomaly data and displays it on an integrated geomap, providing a real-time view of the track's condition.
+
+## **System Highlights:**
+
+- **Dual Cross-Verification**: Combines microphone and ultrasonic data for enhanced accuracy.
+- **Data Transmission**: The collected data is transmitted to a GPS module, Raspberry Pi, and a storage system for redundancy before being uploaded to cloud servers.
+- **Automatic Defect Detection**: Cloud-hosted AI models automatically detect defects and mark them using precise GPS coordinates (latitude and longitude).
+- **Secure Access**: The website and application used by maintenance crews feature encrypted data for enhanced security.
+
+This comprehensive system ensures that railway track defects are detected promptly and accurately, enhancing safety and efficiency in track maintenance operations.
 
 This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
 
