@@ -58,15 +58,29 @@ Welcome to the **Dual Cross-Verifying Geo-Marking System** for railway track def
 1. **Backend**: Run `npm run start` to host the backend locally at port 5000.
 2. **Frontend**: Run `npm run dev` to host the frontend locally at port 5173.
 
-# Running the Project Locally
+cat <<EOL >> README.md
 
-To run this project locally, follow these steps:
+# Running the Project Locally
 
 ## 1. Clone the Repository
 
-Open your terminal or command prompt and run:
-
-```bash
+\`\`\`bash
 git clone https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder.git
+cd SIH_INTERNAL_ROUND_2_TopCoder
+\`\`\`
+
+## 2. Install Dependencies
+
+- **Python**: \`\`\`bash\npip install -r requirements.txt\n\`\`\`
+- **Node.js**: \`\`\`bash\nnpm install\n\`\`\`
+- **Java**: For Maven: \`\`\`bash\nmvn install\n\`\`\` For Gradle: \`\`\`bash\ngradle build\n\`\`\`
+
+## 3. Run the Project
+
+- \`\`\`bash\npython main.py\n\`\`\`
+- \`\`\`bash\npm run start\n\`\`\`
+- \`\`\`bash\npm run dev\n\`\`\`
+
+
 
 
