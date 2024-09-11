@@ -87,15 +87,15 @@
 
  **SOFTWARE:**
 
-- Application Development:
+-**Application Development:**
 React Native Framework with HTML, CSS & JavaScript
 Android Studio for Emulator
 
-- Website Development:
+- **Website Development:**
 Vite JS and React framework (frontend).
 Express (Node.js web application framework) (backend).
 
-- Machine Learning Frameworks:
+-**Machine Learning Frameworks:**
 Logistic regression
 Librosa library
 Random forest
@@ -103,7 +103,7 @@ Decision tree
 AWS Elastic Beanstalk
 Flask (for deployment)
 
-- Cloud Services:
+- **Cloud Services:**
 AWS IOT Core
 AWS Lambda
 AWS SNS
