@@ -52,10 +52,10 @@
                      [Ultrasonic Transmitter-Receiver System](https://www.tinkercad.com/things/jlbW1u8U0sm-ultrasonic-transmitter-receiver-defect-detection-verifying-syst?sharecode=IHqeQRYft3Sh_H7vds6x2g0W31OGxgIXeP10PK3jnBs)
 - **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
 - **Additional Resources**: [Research Paper](https://www.researchgate.net/publication/354632818_A_Novel_Approach_to_Railway_Track_Faults_Detection_Using_Acoustic_Analysis)
+-----------------------------------------------------------------
 
 
-
-# Running the Project Locally
+## Running the Project Locally
 
 1. **Clone the Repository**
 
@@ -79,7 +79,7 @@
 
  ----------------------------------------------------------------------------------------------------------------------------------------------------
 
- **Tech Stacks and Technologies used:**
+ ##Tech Stacks and Technologies used:
 
  **Software:**
 
