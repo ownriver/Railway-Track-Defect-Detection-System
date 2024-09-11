@@ -87,7 +87,7 @@
 
  **SOFTWARE:**
 
--**Application Development:**
+- **Application Development:**
 React Native Framework with HTML, CSS & JavaScript
 Android Studio for Emulator
 
@@ -95,7 +95,7 @@ Android Studio for Emulator
 Vite JS and React framework (frontend).
 Express (Node.js web application framework) (backend).
 
--**Machine Learning Frameworks:**
+- **Machine Learning Frameworks:**
 Logistic regression
 Librosa library
 Random forest
