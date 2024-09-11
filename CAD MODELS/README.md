@@ -2,6 +2,8 @@
 
 This repository contains links to CAD models designed for rail track wear and tear detection using various sensor systems.
 
+**Do press "View in 3D" and kindly wait for the model to load completely (this may take a moment).**
+
 ## 📂 CAD Models
 
 ### 1. Acoustic Mic & AUX Mic Geo-Tracking Defect Detection System
