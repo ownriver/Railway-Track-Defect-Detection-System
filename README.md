@@ -2,7 +2,7 @@
 
 **Dual Cross-Verifying Geo-Marking System** for railway track defect detection. This advanced system integrates both microphone-based and ultrasonic transmitter-receiver setups to provide robust and accurate monitoring. The data is used by the AI model that is integrated to the Cloud server and thereby automatically detects and geo-marks the defects detected. The defect data is encrypted for better security and can only be accessed by select individuals. 
 
-**Key components, team details, project Links, instructions on how to run the project locally and tech stacks & technologies used have all been mentioned below.**
+**Key components, system highlights, team details, project Links, instructions on how to run the project locally and tech stacks & technologies used have all been mentioned below.**
 
 ----------------------------------------------------------------
 ## Key Components
@@ -27,6 +27,7 @@
 ### 5. Visualization
 - **Dynamic Map**: Displays geo-tagged anomalies in real-time on an integrated geomap.
 
+--------------------------------------
 ## System Highlights
 - **Cross-Verification**: Enhances accuracy with combined microphone and ultrasonic data.
 - **Data Transmission**: Ensures redundancy with GPS modules, Raspberry Pi, and cloud servers.
