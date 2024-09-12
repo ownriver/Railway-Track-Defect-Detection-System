@@ -52,8 +52,9 @@
 
 - **SIH Presentation**: [View the PPT](https://github.com/ownriver/SIH_INTERNAL_ROUND_2_Topcoders/blob/main/SIH_PPT_Topcoders.pdf)
 - **Video Demonstration**: [SIH_1584_demo_video](https://www.youtube.com/watch?v=EWoAHoAi5wI)
-- **3D CAD Models**: [Acoustic Mic System](https://www.tinkercad.com/things/2UOgYSBc0pL-acoustic-mic-aux-mic-geo-tracking-defect-detection-system?sharecode=t7Cl9CB0puufQ7OUfeHj0PJhTP1noBdmY2DmjV8xogA)             
-                     [Ultrasonic Transmitter-Receiver System](https://www.tinkercad.com/things/jlbW1u8U0sm-ultrasonic-transmitter-receiver-defect-detection-verifying-syst?sharecode=IHqeQRYft3Sh_H7vds6x2g0W31OGxgIXeP10PK3jnBs)
+- **3D CAD Models**:
+[Acoustic Mic System](https://www.tinkercad.com/things/2UOgYSBc0pL-acoustic-mic-aux-mic-geo-tracking-defect-detection-system?sharecode=t7Cl9CB0puufQ7OUfeHj0PJhTP1noBdmY2DmjV8xogA)             
+[Ultrasonic Transmitter-Receiver System](https://www.tinkercad.com/things/jlbW1u8U0sm-ultrasonic-transmitter-receiver-defect-detection-verifying-syst?sharecode=IHqeQRYft3Sh_H7vds6x2g0W31OGxgIXeP10PK3jnBs)
 - **Source Code:** [GitHub Repository](https://github.com/mohammadBilal03/SIH_INTERNAL_ROUND_2_TopCoder)
 - **Additional Resources**: [Research Paper](https://www.researchgate.net/publication/354632818_A_Novel_Approach_to_Railway_Track_Faults_Detection_Using_Acoustic_Analysis)
 -----------------------------------------------------------------
