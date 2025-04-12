@@ -34,23 +34,9 @@
 - **Automatic Detection**: Uses AI models to detect and geo-tag defects.
 - **Secure Access**: Provides encrypted data for secure access by maintenance crews.
 -----------------------------------------------------------------------------------------
-## Team Details
-
-**Team Name:** TEAM_Topcoders
-
-**Team Leader:** [@ownriver](https://github.com/ownriver)
-
-**Team Members:**
-- **Amaan Aijaz** - [@ownriver](https://github.com/ownriver) (2023UCS1582)
-- **Rishav Shah** - [@rishavafk](https://github.com/rishavafk) (2023UCS1543)
-- **Khushi Monga** - [@Khushi-monga](https://github.com/Khushi-monga) (2023UEC2584)
-- **Ujjawal Kumar** - [@UJJAWALX42](https://github.com/UJJAWALX42) (2023UCS1502)
-- **Ajisth Shukla** - [@shuklaafk](https://github.com/shuklaafk) (2023UCD2156)
-- **Mohammad Bilal** - [@mohammadBilal03](https://github.com/mohammadBilal03) (2023UCS1638)
-----------------------------------------------------------------
 ## Project Links
 
-- **SIH Presentation**: [View the PPT](https://github.com/ownriver/SIH_INTERNAL_ROUND_2_Topcoders/blob/main/SIH_PPT_Topcoders.pdf)
+- **Early Stage Presentation**: [View the PPT](https://github.com/ownriver/SIH_INTERNAL_ROUND_2_Topcoders/blob/main/SIH_PPT_Topcoders.pdf)
 - **Video Demonstration**: [SIH_1584_demo_video](https://www.youtube.com/watch?v=EWoAHoAi5wI)
 - **3D CAD Models**:
 [Acoustic Mic System](https://www.tinkercad.com/things/2UOgYSBc0pL-acoustic-mic-aux-mic-geo-tracking-defect-detection-system?sharecode=t7Cl9CB0puufQ7OUfeHj0PJhTP1noBdmY2DmjV8xogA)             
